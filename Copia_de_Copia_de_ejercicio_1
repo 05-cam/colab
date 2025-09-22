@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPwDut3zZWKpBYeeS+suCHp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/05-cam/colab/blob/main/Copia_de_Copia_de_ejercicio_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "7lTaJeqZh1rn"
+      },
+      "outputs": [],
+      "source": [
+        "# --- Programa en Python para calcular la velocidad en km/h ---\n",
+        "\n",
+        "# Fórmula: v = distancia / tiempo\n",
+        "\n",
+        "# Pedir datos al usuario\n",
+        "nombre = input(\"Ingresa tu nombre: \")\n",
+        "distancia = float(input(\"Ingresa la distancia recorrida (en kilómetros): \"))\n",
+        "tiempo = float(input(\"Ingresa el tiempo empleado (en horas): \"))\n",
+        "\n",
+        "# Calcular la velocidad\n",
+        "velocidad = distancia / tiempo\n",
+        "\n",
+        "# Mostrar el resultado\n",
+        "print(f\"\\nHola {nombre}, la velocidad es: {velocidad} km/h\")"
+      ]
+    }
+  ]
+}
