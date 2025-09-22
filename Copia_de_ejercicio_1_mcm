@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPfhDZdBzJNAhqWyIPAuxFg",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/05-cam/colab/blob/main/Copia_de_ejercicio_1_mcm\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "3dhCZgpBx09C",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f90166d8-3b06-4d97-9fb7-36ed8b426a6a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa tu nombre: Camila vega\n",
+            "Ingresa el primer número: 15\n",
+            "Ingresa el segundo número: 20\n",
+            "\n",
+            "Hola Camila vega, el Máximo Común Múltiplo de 15 y 20 es: 60\n"
+          ]
+        }
+      ],
+      "source": [
+        "import math  # Para usar gcd (máximo común divisor)\n",
+        "\n",
+        "# Programa para calcular el Máximo Común Múltiplo (MCM)\n",
+        "\n",
+        "# Pedir datos al usuario\n",
+        "nombre = input(\"Ingresa tu nombre: \")\n",
+        "num1 = int(input(\"Ingresa el primer número: \"))\n",
+        "num2 = int(input(\"Ingresa el segundo número: \"))\n",
+        "\n",
+        "# Calcular MCM\n",
+        "mcm = abs(num1 * num2) // math.gcd(num1, num2)\n",
+        "\n",
+        "# Mostrar resultado\n",
+        "print(f\"\\nHola {nombre}, el Máximo Común Múltiplo de {num1} y {num2} es: {mcm}\")"
+      ]
+    }
+  ]
+}
